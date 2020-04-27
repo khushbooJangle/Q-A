@@ -1,24 +1,18 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Quest1 from './Components/Quest1';
+import Quest2 from './Components/Quest2';
+import Quest3 from "./Components/Quest3";
+import Quest4 from "./Components/Quest4";
+import Quest5 from "./Components/Quest5";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>Questionnaire...</h1>
+      <Quest1 />
+     
     </div>
   );
 }
